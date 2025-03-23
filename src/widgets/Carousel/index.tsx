@@ -37,7 +37,7 @@ const CustomCarousel: React.FC<CustomCarouselProps> = ({ children }) => {
           orientation='horizontal'
           className='w-full'
         >
-          <CarouselContent className='h-[740px]'>{children}</CarouselContent>
+          <CarouselContent className='h-[800px]'>{children}</CarouselContent>
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
