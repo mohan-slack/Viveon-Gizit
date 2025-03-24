@@ -73,7 +73,8 @@ const Contact: React.FC = () => {
       <div className='w-full flex items-center justify-center mt-6'>
         <QRCode
           size={200}
-          value={`mailto:${process.env.NEXT_PUBLIC_CUSTOMER_CARE_EMAIL}`}
+          // value={`mailto:${process.env.NEXT_PUBLIC_CUSTOMER_CARE_EMAIL}`}
+          value={`mailto:office@viveongizit.com `}
         />
       </div>
     </div>

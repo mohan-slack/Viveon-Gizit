@@ -257,7 +257,7 @@ export const contactData = {
   title: 'WE ALSO MAKE EMAILS',
   description:
     'Receive email updates on stuff you’ll probably want to know about, including products, launches, and events. Unsubscribe anytime.',
-  email: 'youremail@example.com',
+  email: 'office@viveongizit.com',
 };
 
 // Advertise Widget Data

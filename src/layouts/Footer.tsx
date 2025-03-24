@@ -28,7 +28,7 @@ const CustomFooter: React.FC<{ footerData: CustomFooterProps }> = ({
         <div className='text-sm font-semibold text-[#005aa7]'>
           Scan the QR code with your phone to access the website on the go!
         </div>
-        <QRCode size={200} value={`mailto:`} />
+        <QRCode size={200} value="https://viveon-bk3q6qjmm-shreyans-projects-f57ca163.vercel.app/" />
       </div>
     </div>
   );
