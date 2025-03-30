@@ -1,7 +1,7 @@
 'use client';
 
 import { uspPoints } from '@/constants/data';
-import { BellRing, Headphones, Shield, Truck } from 'lucide-react';
+import { BellRing, Headphones, PhoneCall, Shield, Truck } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import React, { JSX } from 'react';
 
@@ -12,6 +12,8 @@ const iconsMapping: IconsMappingType = {
   'Smart Technology': <BellRing className='w-8 h-8 text-[black]' />,
   '6 Months Warranty': <Shield className='w-8 h-8 text-[black]' />,
   'Free Shipping': <Truck className='w-8 h-8 text-[black]' />,
+  'Customer Care': <PhoneCall className='w-8 h-8 text-[black]' />,
+  'Limited Edition': <BellRing className='w-8 h-8 text-[black]' />,
 };
 
 const About: React.FC = () => {

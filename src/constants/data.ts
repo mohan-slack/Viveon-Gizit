@@ -127,18 +127,18 @@ export const imagesD = [
     id: 1,
     url: '/hero_images/hero_image_02.jpg',
   },
-  // {
-  //   id: 2,
-  //   url: '/hero_images/hero_image_04.avif',
-  // },
-  // {
-  //   id: 3,
-  //   url: '/hero_images/hero_image_04.avif',
-  // },
-  // {
-  //   id: 4,
-  //   url: '/hero_images/hero_image_02.jpg',
-  // },
+  {
+    id: 2,
+    url: '/hero_images/hero_image_04.avif',
+  },
+  {
+    id: 3,
+    url: '/hero_images/hero_image_04.avif',
+  },
+  {
+    id: 4,
+    url: '/hero_images/hero_image_02.jpg',
+  },
 ];
 
 export const TEXT_WHITE = [3, 4];
@@ -196,6 +196,15 @@ export const allProducts = {
       currency: '₹',
       description: 'Ultra-low latency with dynamic RGB lighting effects',
     },
+    {
+      imageurl: '/products/gaming-earbuds.png',
+      name: 'HUX-Gaming',
+      type: 'HUX-Earbuds',
+      price: 3949,
+      ctaText: 'Add To Cart',
+      currency: '₹',
+      description: 'Ultra-low latency with dynamic RGB lighting effects',
+    },
   ],
 };
 
@@ -221,6 +230,11 @@ export const uspPoints = {
     {
       title: 'Free Shipping',
       description: 'Enjoy free shipping on all orders over ₹2,999.',
+    },
+    {
+      title: 'Customer Care',
+      description:
+        'Our dedicated customer support team is here to assist you.',
     },
   ],
 };

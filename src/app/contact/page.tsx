@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
   const [emailId, setEmailId] = useState<string>('');
   const [success, setSuccess] = useState<boolean>(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const serviceID = process.env.NEXT_PUBLIC_SERVICE_ID || '';
     const templateID = process.env.NEXT_PUBLIC_TEMPLATE_ID || '';
@@ -73,8 +73,7 @@ const Contact: React.FC = () => {
       <div className='w-full flex items-center justify-center mt-6'>
         <QRCode
           size={200}
-          // value={`mailto:${process.env.NEXT_PUBLIC_CUSTOMER_CARE_EMAIL}`}
-          value={`mailto:office@viveongizit.com `}
+          value={`mailto:${process.env.NEXT_PUBLIC_CUSTOMER_CARE_EMAIL}`}
         />
       </div>
     </div>
